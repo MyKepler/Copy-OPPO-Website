@@ -1,0 +1,245 @@
+.all{
+	width: 100%;
+	height: auto;
+	padding: 0;  /*去除内边距*/
+    border: 0;   /*去除边框*/
+    margin: 0;   /*去除外边距*/
+    background-color: #FBFBFB;
+    color: #393939;
+    font-family: "Myriad Pro",Arial,FZLanTingHei-R-GBK,"方正兰亭黑","Microsoft YaHei","微软雅黑",STHeiti,"华文黑体",SimSun,"宋体",sans-serif;
+}
+
+.topbar {
+    display: flex;
+    flex-direction: row;
+	width: 100%;
+	height: 34px;
+	background-color: #2AAD6F;
+}
+
+.topbar-website {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 108px;
+    margin-left:200px; 
+    border-left: 1px solid #47B488;
+    color: white;
+}
+
+.topbar-website:hover {
+    background-color: #47B488;
+} 
+
+.topbar-website:active {
+    background-color: #47B488;
+} 
+
+.topbar-community {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 108px;
+    border-left: 1px solid #47B488;
+    color: white;
+}
+
+.topbar-community:hover {
+    background-color: #47B488;
+} 
+
+.topbar-community:active {
+    background-color: #47B488;
+} 
+
+.topbar-ColorOS {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 108px;
+    border-left: 1px solid #47B488;
+    color: white;
+}
+
+.topbar-ColorOS:hover {
+    background-color: #47B488;
+} 
+
+.topbar-ColorOS:active {
+    background-color: #47B488;
+} 
+
+.registeredarea {
+    width: 70%;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 15%;
+    border: 1px solid gray;
+    border-radius: 5px;  
+}
+
+.registeredarea-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 120px;
+    border-bottom: 1px solid gray;
+    font-size: 20px;
+}
+
+.registeredarea-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.phonenum {
+    width: 320px;
+    height: 35px;
+    margin-top: 40px;
+    padding-left: 10px;
+    border: 1px solid #C8C6C8;
+    color: #C8C6C8;
+    font-size: 15px;
+    text-align: left;
+}
+
+.nophonenum {
+    display: none; 
+    width: 320px;
+    height: 15px;
+    color: red;
+    font-size: 13px;
+    text-align: left;
+}
+
+.v_container {
+    width: 305px;
+    height: 70px;
+    border-radius: 6px;
+    margin-top: 30px;
+}
+
+.input_area {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: auto;
+}
+
+.code_input {
+    width: 260px;
+}
+
+.my_botton {
+    width: 50px;
+}
+
+.blank {
+    display: none; 
+    width: 320px;
+    height: 15px;
+    padding-left: 7px;
+    color: red;
+    font-size: 13px;
+    text-align: left;
+}
+
+.right {
+    display: none; 
+    width: 320px;
+    height: 15px;
+    padding-left: 7px;
+    color: #3F9873;
+    font-size: 13px;
+    text-align: left;
+}
+
+.wrong {
+    display: none; 
+    width: 320px;
+    height: 15px; 
+    padding-left: 7px;
+    color: red;
+    font-size: 13px;
+    text-align: left;
+}
+
+.agreement {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 320px;
+    height: 30px;
+    text-align: left;
+}
+
+.agreement a {
+   color: #3F9873;
+   cursor: pointer;
+}
+
+.agreement a:hover {
+   color: #3F9873;
+   text-decoration: none;
+}
+
+.agreement a:active {
+   color: #3F9873;
+   text-decoration: none;
+}
+
+.registered {
+    width: 320px;
+    height: 40px;    
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border:none;
+    background-color: #2AAD6F;
+    color: white;
+    font-size: 18px;
+}
+
+.registered:hover {
+    background-color: #47B488;
+}
+
+.registered:active {
+    background-color: #47B488;
+}
+
+.footer_info {
+    position: relative;
+    margin-top: 50px;
+    color: #7b7b7b;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

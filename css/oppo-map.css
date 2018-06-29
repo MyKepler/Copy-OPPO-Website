@@ -1,0 +1,448 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-05-21 21:54:16
+ * @version $Id$
+ */
+
+body{
+	width: 100%;
+}
+
+button,
+input,
+textarea {
+  	-webkit-appearance: none;
+  	-moz-border-radius: 0;
+  	-webkit-border-radius: 0;
+  	border-radius: 0;
+}
+
+button, input, select, textarea {
+  	font-family: inherit;
+  	font-size: 100%;
+}
+
+button[disabled],
+input[disabled] {
+  cursor: default;
+}
+
+button {
+  	border: none;
+  	background: none;
+}
+.secondbar-stores span{
+border-bottom: 2px solid #2AAD6F;
+  
+}
+.button, .button-light, .button-transparent, .button-disabled {
+  	display: block;
+  	width: 100%;
+  	font-size: 16px;
+  	font-weight: bold;
+  	text-align: center;
+  	line-height: 1;
+  	cursor: pointer;
+  	padding: 20px 38px;
+  	margin: 0;
+}
+
+.button {
+  background: #2aad6f;
+  border: 2px solid #2aad6f;
+  color: #fff;
+}
+
+.button:hover {
+  background: #47b488;
+  border-color: #47b488;
+}
+
+.button:active {
+  background: #fff;
+  color: #2aad6f;
+}
+
+.button-disabled {
+  background: #ededed;
+  color: #7b7b7b;
+  border: 2px solid transparent;
+  cursor: default;
+}
+.button-disabled:hover {
+  background: #ededed;
+  color: #7b7b7b;
+  border: 2px solid transparent;
+  cursor: default;
+}
+
+.upper-area{
+	background-color: #009B72;
+	height: 30px;
+	line-height: 30px;
+}
+
+
+.sso-login,.sso-register,.lang-link_js-toggle-close{
+	color: white;
+	text-decoration: none;
+}
+
+
+#logo_logo-extend_logo{
+	height: 90%;
+	width: 90%;
+}
+
+.bottom-area{
+	height: 78px;
+	line-height: 78px;
+	font-family: "微软雅黑";
+	font-size: 15px;
+}
+
+.menu_g{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+#gi,#giis-active{
+	width: 85px;
+	text-align: center;
+}
+
+.m-item{
+	color: gray;
+	text-decoration: none;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero-image img {
+  	display: inline-block;
+  	width: 100%;
+  	height: auto;
+}
+
+
+.search-store {
+  	width: 70%;
+  	margin: 0 auto;
+  	padding: 6px;
+  	background: #fff;
+  	background: rgba(255, 255, 255, 0.4);
+  	border-radius: 6px;
+}
+
+.search-store .input-button-item {
+  	border-radius: 6px;
+  	overflow: hidden;
+}
+
+.search-store input{
+  	font-size: 20px;
+  	/*font-size: 1.25rem;*/
+  	border: none;
+}
+
+.search-store-wrapper {
+  	position: absolute;
+  	top: 40%;
+  	left: 0;
+  	width: 100%;
+}
+
+
+.input-button-item .button {
+  	width: 24%;
+  	border: 1px solid #269d65;
+  	border-left: none;
+  	height: 72px;
+  	position: relative;
+  	padding-right: 0;
+  	padding-left: 0;
+  	font-size: 18px;
+	line-height: 30px;
+}
+
+.input-button-item input {
+  	border: 1px solid #cccccc;
+  	width: 76%;
+  	padding-right: 0;
+  	padding: 16px;
+  	float: left;
+  	border-right: none;
+  	border-radius: 3px 0 0 3px;
+  	margin: 0;
+  	height: 72px;
+}
+
+.slab-white{
+	height: 96px;
+	width: 100%;
+	line-height: 96px;
+}
+
+select{
+  	width: 100%;
+  	height: 66px;
+  	line-height: 66px;
+ 	filter: alpha(opacity=0);
+	/*  opacity: 0;*/
+  	position: relative;
+  	bottom: 0;
+  	left: 0;
+  	height: 100%;
+  	appearance: none;
+  	-moz-appearance:none; /* Firefox */
+	-webkit-appearance:none; /* Safari 和 Chrome */
+	padding-left: 45px; 
+ 	background: url(../img/jiantou.png) no-repeat right;  
+
+}
+
+.select_cities_shops{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-size: 16px;
+	font-family: "微软雅黑";
+}
+
+.select_cities_shops-province,
+.select_cities_shops-city,
+.select_cities_shops-level{
+	height: 66px;
+	width: 199px;
+	display: flex;
+	flex-direction: row;
+}
+
+.select_cities_shops-province div,
+.select_cities_shops-city div,
+.select_cities_shops-level div{
+	width: 20%;
+	right: 0;
+	top: 20px;
+}
+
+#select_cities_shops {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 25px;
+  margin-left: auto;
+
+}
+#select_cities_shops .tips {
+  height: 66px;
+  line-height: 66px;
+}
+
+.slab-light_brick-s{
+	background-color: #EDEDED;
+	padding-top: 30px;
+}
+
+.wrapper{
+	padding: 0 80px;
+	margin: 40px;
+}
+
+.wrapper_head{
+
+}
+
+.location-map{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	background-color: white;
+}
+
+.location-map-main{
+	height: 450px;
+	width: 75%;
+/*	background-color: lightblue;*/
+}
+
+#myMap{
+	height: 90%;
+	width: 95%;
+	margin: 20px;
+}  
+
+
+.location-map-legend{
+	height: 426px;
+	width: 25%;
+	font-family: "微软雅黑";
+	border-left: 1px solid lightgray;
+}
+
+.location-map-legend section{
+	height: 426px;
+	width: 80%;
+	margin: auto;
+}
+
+.h-delta{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#icon-list{
+	font-size: 16px;
+	color: #393939;
+}
+
+.fa-wrapper span{
+	color: #5A5A5A;
+}
+
+.location-address{
+	font-family: "微软雅黑";
+}
+
+.h-gamma{
+	font-size: 26px;
+	font-weight: bold;
+}
+
+.location-address {
+  padding: 26px 0;
+}
+
+.location-address .list-store {
+  	margin: 37px 22px;
+  	padding: 15px;
+  	background-color: white;
+  	border: 1px solid lightgray;
+  	width: 97%;
+  	text-indent: 1em;
+  	font-size: 15px;
+}
+
+#marker-first{
+	text-indent: 0;
+}
+
+.location-address .list-store li:nth-child(even) {
+  background: #f7f7f7;
+}
+
+.location-address .store-location .marker {
+	width: 37px;
+	height: 48px;
+	background: url(../img/marker.png) no-repeat;
+	font-size: 16px;
+	text-align: center;
+	line-height: 48px;
+	position: relative;
+	top: -10px;
+	left: 10px;
+}
+
+.store-location{
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 25px 10px;
+}
+
+#store-location-main{
+	width: 100%;
+	height: 72px;
+	margin-left: 15px;
+}
+
+.marker-text{
+	margin-left: -16px;
+	color: white;
+}
+
+.view-details{
+	color: #1f8657;
+	text-decoration: none;
+}
+
+#marker-last{
+	border-left: 1px solid lightgray;
+	height: 62px;
+}
+
+.pagination {
+	height: 52px;
+	width: 100%;
+  	overflow: hidden;
+  	margin: 20px 0;
+  	text-align: center;
+}
+.pagination li {
+  display: inline-block;
+  background: #fff;
+	margin: 0 6px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  line-height: 50px;
+  text-align: center;
+  color: #1f8657;
+
+}
+.pagination li a {
+  font-size: 18px;
+}
+.pagination li.active {
+  background: #2aad6f;
+  color: #fff;
+  font-size: 18px;
+}
+.pagination li:hover {
+  background: #47b488;
+  color: #fff;
+}
+
+.main-footer{
+	background-color: #F6F6F6;
+	width: 100%;
+	height: 100%;
+	padding: 0 10px;
+}
+
+.footer-sitemap{
+	padding: 40px 0;
+}
+
+#gi_lap-three-quarters{
+	width: 100%;
+}
+
+.gi_lap-one-quarter_align-right{
+	width: 100%;
+}
+
+#gi_lap-one-quarter .m-item{
+	font-weight: bold;
+	color: black;
+}
+
+.gi_lap-one-quarter_align-right{
+	text-align: center;
+	font-family: "微软雅黑";
+}
+
+.contact-number{
+	margin-top: 15px;
+	font-size: 26px;
+}
+
+.contact-tips{
+	margin-top: -10px;
+}

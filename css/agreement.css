@@ -1,0 +1,47 @@
+body, form, div, ul, ol, li, h1, h2, h3, h4, h5, h6, table, tr, th, td, p, input, dl, dt, dd, ul, ol, li, input, span, textarea {
+    font-family: '宋体' !important;
+    font-weight: normal;
+}
+body {
+    display: block;
+    margin: 8px;
+}
+
+h2 {
+    margin: 12.0pt 0 9.0pt 0;
+    font-size: 13.0pt;
+    font-weight: bolder;
+    text-align: center;
+}
+
+h3 {
+    display: block;
+    margin: 16.5pt 0 16.5pt 0;
+    font-size: 13.0pt;
+    font-weight: bolder;
+}
+
+p {
+    color: #53595D;
+    font-size: 12.0pt;
+    line-height: 16.5pt;
+}
+
+#footer {
+    position: relative;
+    color: #53595D;
+    font-size: 13.0pt;
+}
+
+.end {
+    position: absolute;
+    left: 0;
+    margin: 20.0pt 0 10.0pt 0;
+}
+
+.company {
+    position: absolute;
+    right: 0;
+    margin: 50.0pt 0 10.0pt 0;
+}
+

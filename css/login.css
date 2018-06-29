@@ -1,0 +1,259 @@
+.all {
+	width: 100%;
+	height: auto;
+    margin: 0;   /*去除外边距*/
+	padding: 0;  /*去除内边距*/
+    border: 0;   /*去除边框*/
+    background-color: #FBFBFB;
+    color: #393939;
+    font-family: "Myriad Pro",Arial,FZLanTingHei-R-GBK,"方正兰亭黑","Microsoft YaHei","微软雅黑",STHeiti,"华文黑体",SimSun,"宋体",sans-serif;
+}
+
+.topbar {
+    display: flex;
+    flex-direction: row;
+	width: 100%;
+	height: 34px;
+	background-color: #2AAD6F;
+}
+
+.topbar-website {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 108px;
+    margin-left: 200px; 
+    border-left: 1px solid #47B488;
+    color: white;
+}
+
+.topbar-website:hover {
+    background-color: #47B488;
+} 
+
+.topbar-website:active {
+    background-color: #47B488;
+} 
+
+.topbar-community {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 108px;
+    border-left: 1px solid #47B488;
+    color: white;
+}
+
+.topbar-community:hover {
+    background-color: #47B488;
+} 
+
+.topbar-community:active {
+    background-color: #47B488;
+} 
+
+.topbar-ColorOS {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 108px;
+    border-left: 1px solid #47B488;
+    color: white;
+}
+
+.topbar-ColorOS:hover {
+    background-color: #47B488;
+} 
+
+.topbar-ColorOS:active {
+    background-color: #47B488;
+} 
+
+.login_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+}
+
+.moreservice {
+    font-size: 15px;
+    text-align: center;
+}
+
+.phonenum {
+    width: 320px;
+    height: 46px;
+    margin-top: 40px;
+    padding-left: 10px;
+    border: 1px solid #C8C6C8;
+    color: #C8C6C8;
+    font-size: 15px;
+    text-align: left;
+}
+
+.nophonenum {
+    display: none; 
+    width: 320px;
+    height: 15px;
+    color: red;
+    font-size: 13px;
+    text-align: left;
+}
+
+.code {
+    width: 320px;
+    height: 46px;
+    padding-left: 10px;
+    border: 1px solid #C8C6C8;
+    margin-top: 13px;
+    color: #C8C6C8;
+    font-size: 15px;
+    text-align: left;
+}
+
+.nocode {
+    display: none; 
+    width: 320px;
+    height: 15px;
+    color: red;
+    font-size: 13px;
+    text-align: left;
+}
+
+.problem {
+    width: 320px;
+    height: 46px;
+    margin-top: 13px;
+    padding-left: 10px;
+    font-size: 13px;
+    text-align: right;
+}
+
+.problem a {
+    color: #3E9563;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.problem a:hover {
+    color: #3E9563;
+} 
+
+.problem a:active {
+    color: #3E9563;
+} 
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: 46px;
+    margin-top: -3px;
+    border: none;
+    background-color: #2AAD6F;
+    color: white;
+    font-size: 18px;
+}
+
+.login:hover {
+    background-color: #47B488;
+} 
+
+.lofin:active {
+    background-color: #47B488;
+} 
+
+.registered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: 46px;
+    margin-top:13px;
+    border:1px solid #C8C6C8;
+    background-color: white;
+    font-size: 15px;
+}
+
+.registered:hover {
+    background-color: #E1E1E1;
+} 
+
+.registered:active {
+    background-color: #E1E1E1;
+} 
+
+.otherway {
+    display: flex;
+    flex-direction: row;
+    width: 320px;
+    height: 40px;
+    margin-top: 55px;
+    color: #979A9A;
+}
+
+.lineleft {
+    width: 105px;
+    height: 50%;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-top: 1px solid #979A9A;
+}
+
+.lineright {
+    width: 105px;
+    height: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-top: 1px solid #979A9A;
+}
+
+.fourways {
+    display: flex;
+    flex-direction: row;
+    width: 320px;
+    height: 100px;
+    padding-left: 70px;
+}
+
+.qq {
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
+}
+
+.weibo {
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
+}
+
+.alipay {
+    width: 30px;
+    height: 30px;
+    margin-top: 3px;
+    margin-right: 15px;
+}
+
+.wechat {
+    width: 35px;
+    height: 35px;
+}
+
+.footer_info {
+    position: relative;
+    color: #7b7b7b;
+    font-size: 12px;
+    text-align: center;
+}

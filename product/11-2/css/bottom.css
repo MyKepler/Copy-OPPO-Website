@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-06-05 16:39:38
+ * @version $Id$
+ */
+.supplement_left,
+.copyright_left,
+.copyright_right{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+#supplement{
+	/*width:100%;*/
+	height:275px;
+	background-color:rgb(246,246,246);
+	margin-top:70px;
+	border-bottom:1px solid rgb(207,207,207);
+}
+.supplement_left table{
+	
+
+	margin-top:70px;
+	margin-bottom:70px;
+}
+.supplement_left table th{
+	height:40px;
+}
+.supplement_left table tr{
+	height:25px;
+}
+.supplement_left table tr td{
+	width:200px;
+}
+.supplement_right{
+	
+	
+	margin-right:55px;
+	float:right;
+	
+}
+.supplement_right .weixin{
+	width:180px;
+	height:40px;
+	line-height:40px;
+	margin-top:70px;
+	margin-bottom:30px;
+	margin-left:100px;
+	border-radius:20px;
+	border:2px solid rgb(8,8,8);
+	
+}
+.supplement_right .weixin .fa{
+	color:rgb(54,54,54);
+	margin-left:30px;
+}
+.supplement_right .telephone{
+	font-size:20px;
+	margin-left:130px;
+}
+.supplement_right .addition{
+	font-size:10px;
+	margin-left:130px;
+}
+#copyright{
+	
+	height:120px;
+	background-color:rgb(246,246,246);
+}
+.copyright_left,
+.copyright_right{
+	
+	height:70px;
+	line-height:70px;
+}
+.copyright_right{
+	
+	height:70px;
+	line-height:70px;
+	margin-left:375px;
+	display:flex;
+	flex-direction:row;
+	
+}
+.copyright_right .fa{
+	margin-top:20px;
+	margin-left:10px;
+	color:rgb(201,201,201);
+}
